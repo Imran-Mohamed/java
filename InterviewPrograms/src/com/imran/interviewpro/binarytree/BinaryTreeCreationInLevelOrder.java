@@ -1,7 +1,7 @@
 package com.imran.interviewpro.binarytree;
 
-public class BinaryTreeInLevelOrderCreation {
+public class BinaryTreeCreationInLevelOrder {
     public static void main(String[] args) {
-        
+
     }
 }
