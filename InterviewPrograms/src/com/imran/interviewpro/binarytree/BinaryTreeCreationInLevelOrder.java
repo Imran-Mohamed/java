@@ -19,6 +19,36 @@ public class BinaryTreeCreationInLevelOrder {
     int arr[] = {1, 2, 3, 4, 5};
     b.root = b.levelOrderCreation(arr, b.root, 0);
     levelOrderTraversal(b.root);
+    System.out.println();
+    inorderTraversal(b.root);
+    System.out.println();
+    preOrderTraversal(b.root);
+    System.out.println();
+    postOrderTraversal(b.root);
+  }
+
+  private static void preOrderTraversal(Node root) {
+    if(root != null){
+      System.out.print(root.data+" ");
+      preOrderTraversal(root.left);
+      preOrderTraversal(root.right);
+    }
+  }
+
+  private static void inorderTraversal(Node root) {
+    if(root != null){
+      preOrderTraversal(root.left);
+      System.out.print(root.data+" ");
+      preOrderTraversal(root.right);
+    }
+  }
+
+  private static void postOrderTraversal(Node root) {
+    if(root != null){
+      preOrderTraversal(root.left);
+      preOrderTraversal(root.right);
+      System.out.print(root.data+" ");
+    }
   }
 
   private static void levelOrderTraversal(Node root) {
