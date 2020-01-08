@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c20d4396-b303-4284-bb30-4ed3d1fe3420" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="c20d4396-b303-4284-bb30-4ed3d1fe3420" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imran/interviewpro/binarysearchtree/CreateBinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/imran/interviewpro/binarytree/BinaryTreeCreationInLevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imran/interviewpro/binarytree/BinaryTreeCreationInLevelOrder.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,27 +20,39 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Vyf1hOFfK3mvhlqJlHdllgHiTX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.8.0_181/bin/jvisualvm.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
+    <configuration name="BinaryTreeCreationInLevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imran.interviewpro.binarytree.BinaryTreeCreationInLevelOrder" />
+      <module name="InterviewPrograms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imran.interviewpro.binarytree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -58,6 +75,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BinaryTreeCreationInLevelOrder" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -69,12 +103,111 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578230041563</updated>
-      <workItem from="1578230046460" duration="902000" />
+      <workItem from="1578230046460" duration="3743000" />
+      <workItem from="1578286494555" duration="31000" />
+      <workItem from="1578286639872" duration="79000" />
+      <workItem from="1578287095353" duration="40000" />
+      <workItem from="1578287169695" duration="5005000" />
+      <workItem from="1578367288360" duration="4877000" />
     </task>
+    <task id="LOCAL-00001" summary="Name change">
+      <created>1578232046991</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578232046991</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Name change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Name change" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1726" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1578405378884">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1726" y="240" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1578405378884" />
+    <state width="1921" height="344" key="GridCell.Tab.0.bottom" timestamp="1578372755991">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.104.1920.1040@0.0.1920.1040" timestamp="1578311966071" />
+    <state width="1276" height="344" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1578324645997" />
+    <state width="1921" height="344" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578372755991" />
+    <state width="1921" height="344" key="GridCell.Tab.0.center" timestamp="1578372755991">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="344" key="GridCell.Tab.0.center/0.0.1920.1040/1920.104.1920.1040@0.0.1920.1040" timestamp="1578311966071" />
+    <state width="1276" height="344" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1578324645997" />
+    <state width="1921" height="344" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578372755991" />
+    <state width="1921" height="344" key="GridCell.Tab.0.left" timestamp="1578372755991">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="344" key="GridCell.Tab.0.left/0.0.1920.1040/1920.104.1920.1040@0.0.1920.1040" timestamp="1578311966071" />
+    <state width="1276" height="344" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1578324645997" />
+    <state width="1921" height="344" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578372755991" />
+    <state width="1921" height="344" key="GridCell.Tab.0.right" timestamp="1578372755991">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="344" key="GridCell.Tab.0.right/0.0.1920.1040/1920.104.1920.1040@0.0.1920.1040" timestamp="1578311966071" />
+    <state width="1276" height="344" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1578324645997" />
+    <state width="1921" height="344" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578372755991" />
+    <state width="1921" height="344" key="GridCell.Tab.1.bottom" timestamp="1578372756160">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.104.1920.1040@0.0.1920.1040" timestamp="1578311966071" />
+    <state width="1276" height="344" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1578324646404" />
+    <state width="1921" height="344" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578372756160" />
+    <state width="1921" height="344" key="GridCell.Tab.1.center" timestamp="1578372756160">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="344" key="GridCell.Tab.1.center/0.0.1920.1040/1920.104.1920.1040@0.0.1920.1040" timestamp="1578311966071" />
+    <state width="1276" height="344" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1578324646404" />
+    <state width="1921" height="344" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578372756160" />
+    <state width="1921" height="344" key="GridCell.Tab.1.left" timestamp="1578372756160">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="344" key="GridCell.Tab.1.left/0.0.1920.1040/1920.104.1920.1040@0.0.1920.1040" timestamp="1578311966071" />
+    <state width="1276" height="344" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1578324646404" />
+    <state width="1921" height="344" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578372756160" />
+    <state width="1921" height="344" key="GridCell.Tab.1.right" timestamp="1578372756160">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="344" key="GridCell.Tab.1.right/0.0.1920.1040/1920.104.1920.1040@0.0.1920.1040" timestamp="1578311966071" />
+    <state width="1276" height="344" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1578324646404" />
+    <state width="1921" height="344" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578372756160" />
+    <state x="1618" y="255" width="606" height="536" key="find.popup" timestamp="1578323890953">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1618" y="255" width="606" height="536" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1578323890953" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/imran/interviewpro/binarytree/BinaryTreeCreationInLevelOrder.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>
