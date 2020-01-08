@@ -1,5 +1,8 @@
 package com.imran.interviewpro.binarytree;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /*
    input : arr[] = {1,2,3,4,5,6}
    output: 1
@@ -13,8 +16,25 @@ public class BinaryTreeCreationInLevelOrder {
 
   public static void main(String[] args) {
     BinaryTreeCreationInLevelOrder b = new BinaryTreeCreationInLevelOrder();
-    int arr[] = {1, 2, 3};
+    int arr[] = {1, 2, 3, 4, 5};
     b.root = b.levelOrderCreation(arr, b.root, 0);
+    levelOrderTraversal(b.root);
+  }
+
+  private static void levelOrderTraversal(Node root) {
+    if (null == root) return;
+    Queue<Node> q = new LinkedList();
+    q.add(root);
+    while (!q.isEmpty()) {
+      Node temp = q.poll();
+      System.out.print(temp.data + " ");
+      if (temp.left != null) {
+        q.add(temp.left);
+      }
+      if (temp.right != null) {
+        q.add(temp.right);
+      }
+    }
   }
 
   private Node levelOrderCreation(int[] arr, Node root, int i) {
